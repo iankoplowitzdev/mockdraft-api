@@ -1,0 +1,96 @@
+const players = [
+  {
+    firstName: "Trevor",
+    lastName: "Lawrence",
+    position: "QB",
+    program: "Clemson",
+    rank: 1,
+  },
+  {
+    firstName: "Kyle",
+    lastName: "Pitts",
+    position: "TE",
+    program: "Florida",
+    rank: 2,
+  },
+  {
+    firstName: "Justin",
+    lastName: "Fields",
+    position: "QB",
+    program: "Ohio State",
+    rank: 3,
+  },
+  {
+    firstName: "Penei",
+    lastName: "Sewell",
+    position: "OT",
+    program: "Oregon",
+    rank: 4,
+  },
+  {
+    firstName: "Ja'Marr",
+    lastName: "Chase",
+    position: "WR",
+    program: "LSU",
+    rank: 5,
+  },
+  {
+    firstName: "Patrick",
+    lastName: "Surtain II",
+    position: "CB",
+    program: "Alabama",
+    rank: 6,
+  },
+  {
+    firstName: "Micah",
+    lastName: "Parsons",
+    position: "LB",
+    program: "Penn State",
+    rank: 7,
+  },
+  {
+    firstName: "Trevon",
+    lastName: "Moehrig",
+    position: "S",
+    program: "TCU",
+    rank: 8,
+  },
+  {
+    firstName: "Christian",
+    lastName: "Barmore",
+    position: "DL",
+    program: "Alabama",
+    rank: 9,
+  },
+  {
+    firstName: "Creed",
+    lastName: "Humphrey",
+    position: "C",
+    program: "Oklahoma",
+    rank: 10,
+  },
+  {
+    firstName: "Wyatt",
+    lastName: "Davis",
+    position: "OG",
+    program: "Ohio State",
+    rank: 11,
+  },
+  {
+    firstName: "Kwity",
+    lastName: "Paye",
+    position: "EDGE",
+    program: "Michigan",
+    rank: 12,
+  },
+  {
+    firstName: "Javonte",
+    lastName: "Williams",
+    position: "RB",
+    program: "North Carolina",
+    rank: 13,
+  },
+];
+
+
+module.exports = players;

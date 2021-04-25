@@ -1,0 +1,19 @@
+{
+  "name": "mock-draft-simulator",
+  "version": "1.0.0",
+  "description": "Mock draft simulator.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-from-scratch": "./scripts/migrate/utils/DBFromScratch.js"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "mongoose": "5.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
