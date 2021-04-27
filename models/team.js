@@ -13,7 +13,7 @@ const teamSchema = new Schema({
     OT: Number,
     OG: Number,
     C: Number,
-    EDGE: Number,
+    ED: Number,
     DL: Number,
     LB: Number,
     CB: Number,
