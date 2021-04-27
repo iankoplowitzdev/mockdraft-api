@@ -18,7 +18,8 @@ const teamSchema = new Schema({
     LB: Number,
     CB: Number,
     S: Number
-  }
+  },
+  picks: [ Number ]
 });
 
 module.exports = mongoose.model('Team', teamSchema, collectionName);

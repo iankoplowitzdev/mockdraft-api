@@ -15,7 +15,10 @@ const teams = [
       LB: 60,
       CB: 80,
       S: 70
-    }
+    },
+    picks: [
+      10
+    ]
   },
   {
     city: 'Washington',
@@ -33,7 +36,10 @@ const teams = [
       LB: 60,
       CB: 70,
       S: 70
-    }
+    },
+    picks: [
+      19
+    ]
   },
   {
     city: 'Philadelphia',
@@ -51,7 +57,10 @@ const teams = [
       LB: 70,
       CB: 80,
       S: 60
-    }
+    },
+    picks: [
+      12
+    ]
   },
   {
     city: 'New York',
@@ -69,7 +78,10 @@ const teams = [
       LB: 50,
       CB: 80,
       S: 70
-    }
+    },
+    picks: [
+      11
+    ]
   },
   {
     city: 'New Orleans',
@@ -87,7 +99,10 @@ const teams = [
       LB: 50,
       CB: 50,
       S: 20
-    }
+    },
+    picks: [
+      28
+    ]
   },
   {
     city: 'Atlanta',
@@ -105,7 +120,10 @@ const teams = [
       LB: 20,
       CB: 60,
       S: 50
-    }
+    },
+    picks: [
+      4
+    ]
   },
   {
     city: 'Carolina',
@@ -123,7 +141,10 @@ const teams = [
       LB: 10,
       CB: 80,
       S: 60
-    }
+    },
+    picks: [
+      8
+    ]
   },
   {
     city: 'Tampa Bay',
@@ -141,7 +162,10 @@ const teams = [
       LB: 10,
       CB: 50,
       S: 30
-    }
+    },
+    picks: [
+      32
+    ]
   },
   {
     city: 'Green Bay',
@@ -159,7 +183,10 @@ const teams = [
       LB: 80,
       CB: 50,
       S: 40
-    }
+    },
+    picks: [
+      29
+    ]
   },
   {
     city: 'Detriot',
@@ -177,7 +204,10 @@ const teams = [
       LB: 60,
       CB: 40,
       S: 50
-    }
+    },
+    picks: [
+      7
+    ]
   },
   {
     city: 'Chicago',
@@ -195,7 +225,10 @@ const teams = [
       LB: 20,
       CB: 90,
       S: 30
-    }
+    },
+    picks: [
+      20
+    ]
   },
   {
     city: 'Minnesota',
@@ -213,7 +246,10 @@ const teams = [
       LB: 50,
       CB: 20,
       S: 30
-    }
+    },
+    picks: [
+      14
+    ]
   },
   {
     city: 'Seattle',
@@ -231,7 +267,10 @@ const teams = [
       LB: 20,
       CB: 60,
       S: 20
-    }
+    },
+    picks: [
+
+    ]
   },
   {
     city: 'San Francisco',
@@ -249,7 +288,10 @@ const teams = [
       LB: 20,
       CB: 70,
       S: 60
-    }
+    },
+    picks: [
+      3
+    ]
   },
   {
     city: 'Arizona',
@@ -267,7 +309,10 @@ const teams = [
       LB: 30,
       CB: 60,
       S: 40
-    }
+    },
+    picks: [
+      16
+    ]
   },
   {
     city: 'Los Angeles',
@@ -285,7 +330,10 @@ const teams = [
       LB: 80,
       CB: 20,
       S: 50
-    }
+    },
+    picks: [
+
+    ]
   },
   {
     city: 'Kansas City',
@@ -303,7 +351,10 @@ const teams = [
       LB: 70,
       CB: 50,
       S: 20
-    }
+    },
+    picks: [
+
+    ]
   },
   {
     city: 'Denver',
@@ -321,7 +372,10 @@ const teams = [
       LB: 30,
       CB: 50,
       S: 50
-    }
+    },
+    picks: [
+      9
+    ]
   },
   {
     city: 'Las Vegas',
@@ -339,7 +393,10 @@ const teams = [
       LB: 70,
       CB: 80,
       S: 20
-    }
+    },
+    picks: [
+      17
+    ]
   },
   {
     city: 'Los Angeles',
@@ -357,7 +414,10 @@ const teams = [
       LB: 70,
       CB: 80,
       S: 40
-    }
+    },
+    picks: [
+      13
+    ]
   },
   {
     city: 'Baltimore',
@@ -375,7 +435,11 @@ const teams = [
       LB: 50,
       CB: 30,
       S: 30
-    }
+    },
+    picks: [
+      27,
+      31
+    ]
   },
   {
     city: 'Pittsburgh',
@@ -393,7 +457,10 @@ const teams = [
       LB: 60,
       CB: 40,
       S: 10
-    }
+    },
+    picks: [
+      24
+    ]
   },
   {
     city: 'Cleveland',
@@ -411,7 +478,10 @@ const teams = [
       LB: 50,
       CB: 30,
       S: 10
-    }
+    },
+    picks: [
+      26
+    ]
   },
   {
     city: 'Cincinnati',
@@ -429,7 +499,10 @@ const teams = [
       LB: 80,
       CB: 50,
       S: 10
-    }
+    },
+    picks: [
+      5
+    ]
   },
   {
     city: 'New England',
@@ -447,7 +520,10 @@ const teams = [
       LB: 30,
       CB: 50,
       S: 30
-    }
+    },
+    picks: [
+      15
+    ]
   },
   {
     city: 'New York',
@@ -465,7 +541,11 @@ const teams = [
       LB: 20,
       CB: 60,
       S: 30
-    }
+    },
+    picks: [
+      2,
+      23
+    ]
   },
   {
     city: 'Buffalo',
@@ -483,7 +563,10 @@ const teams = [
       LB: 50,
       CB: 60,
       S: 20
-    }
+    },
+    picks: [
+      30
+    ]
   },
   {
     city: 'Miami',
@@ -501,7 +584,11 @@ const teams = [
       LB: 50,
       CB: 20,
       S: 50
-    }
+    },
+    picks: [
+      6,
+      18
+    ]
   },
   {
     city: 'Indianapolis',
@@ -519,7 +606,10 @@ const teams = [
       LB: 20,
       CB: 50,
       S: 50
-    }
+    },
+    picks: [
+      21
+    ]
   },
   {
     city: 'Houston',
@@ -537,7 +627,10 @@ const teams = [
       LB: 80,
       CB: 70,
       S: 70
-    }
+    },
+    picks: [
+
+    ]
   },
   {
     city: 'Jacksonville',
@@ -555,7 +648,11 @@ const teams = [
       LB: 30,
       CB: 30,
       S: 50
-    }
+    },
+    picks: [
+      1,
+      25
+    ]
   },
   {
     city: 'Tennessee',
@@ -573,7 +670,10 @@ const teams = [
       LB: 50,
       CB: 20,
       S: 30
-    }
+    },
+    picks: [
+      22
+    ]
   }
 ]
 
