@@ -7,7 +7,8 @@ const playerSchema = new Schema({
   lastName: String,
   position: String,
   program: String,
-  rank: Number
+  rank: Number,
+  score: Number
 });
 
 module.exports = mongoose.model('Player', playerSchema, collectionName);
