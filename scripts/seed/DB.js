@@ -11,6 +11,9 @@ const teams = require('./teams');
 const Player = require('../../models/player');
 const players = require('./players');
 
+const Position = require('../../models/position');
+const positions = require('./positions');
+
 
 module.exports = class DB{
     constructor(config){
@@ -62,6 +65,13 @@ module.exports = class DB{
         for (let i = 0; i < players.length; i++) {
             const player = new Player(players[i]);
             await player.save();
+        }
+
+        // create positions collection
+        this.db.dropCollection('positions');
+        for (let i = 0; i < positions.length; i++) {
+            const position = new Position(positions[i]);
+            await position.save();
         }
     }
 
