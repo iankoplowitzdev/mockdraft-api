@@ -19,6 +19,7 @@ const teamSchema = new Schema({
     CB: Number,
     S: Number
   },
+  abbreviation: String,
   picks: [ Number ]
 });
 

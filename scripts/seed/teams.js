@@ -16,6 +16,7 @@ const teams = [
       CB: 80,
       S: 70
     },
+    abbreviation: "DAL",
     picks: [
       10
     ]
@@ -37,6 +38,7 @@ const teams = [
       CB: 70,
       S: 70
     },
+    abbreviation: "WAS",
     picks: [
       19
     ]
@@ -58,6 +60,7 @@ const teams = [
       CB: 80,
       S: 60
     },
+    abbreviation: "PHI",
     picks: [
       12
     ]
@@ -79,6 +82,7 @@ const teams = [
       CB: 80,
       S: 70
     },
+    abbreviation: "NYG",
     picks: [
       11
     ]
@@ -100,6 +104,7 @@ const teams = [
       CB: 50,
       S: 20
     },
+    abbreviation: "NO",
     picks: [
       28
     ]
@@ -121,6 +126,7 @@ const teams = [
       CB: 60,
       S: 50
     },
+    abbreviation: "ATL",
     picks: [
       4
     ]
@@ -142,6 +148,7 @@ const teams = [
       CB: 80,
       S: 60
     },
+    abbreviation: "CAR",
     picks: [
       8
     ]
@@ -163,6 +170,7 @@ const teams = [
       CB: 50,
       S: 30
     },
+    abbreviation: "TB",
     picks: [
       32
     ]
@@ -184,6 +192,7 @@ const teams = [
       CB: 50,
       S: 40
     },
+    abbreviation: "GB",
     picks: [
       29
     ]
@@ -205,6 +214,7 @@ const teams = [
       CB: 40,
       S: 50
     },
+    abbreviation: "DET",
     picks: [
       7
     ]
@@ -226,6 +236,7 @@ const teams = [
       CB: 90,
       S: 30
     },
+    abbreviation: "CHI",
     picks: [
       20
     ]
@@ -247,6 +258,7 @@ const teams = [
       CB: 20,
       S: 30
     },
+    abbreviation: "MIN",
     picks: [
       14
     ]
@@ -268,6 +280,7 @@ const teams = [
       CB: 60,
       S: 20
     },
+    abbreviation: "SEA",
     picks: [
 
     ]
@@ -289,6 +302,7 @@ const teams = [
       CB: 70,
       S: 60
     },
+    abbreviation: "SF",
     picks: [
       3
     ]
@@ -310,6 +324,7 @@ const teams = [
       CB: 60,
       S: 40
     },
+    abbreviation: "ARZ",
     picks: [
       16
     ]
@@ -331,6 +346,7 @@ const teams = [
       CB: 20,
       S: 50
     },
+    abbreviation: "LAR",
     picks: [
 
     ]
@@ -352,6 +368,7 @@ const teams = [
       CB: 50,
       S: 20
     },
+    abbreviation: "KC",
     picks: [
 
     ]
@@ -373,6 +390,7 @@ const teams = [
       CB: 50,
       S: 50
     },
+    abbreviation: "DEN",
     picks: [
       9
     ]
@@ -394,6 +412,7 @@ const teams = [
       CB: 80,
       S: 20
     },
+    abbreviation: "LV",
     picks: [
       17
     ]
@@ -415,6 +434,7 @@ const teams = [
       CB: 80,
       S: 40
     },
+    abbreviation: "LAC",
     picks: [
       13
     ]
@@ -436,6 +456,7 @@ const teams = [
       CB: 30,
       S: 30
     },
+    abbreviation: "BAL",
     picks: [
       27,
       31
@@ -458,6 +479,7 @@ const teams = [
       CB: 40,
       S: 10
     },
+    abbreviation: "PIT",
     picks: [
       24
     ]
@@ -479,6 +501,7 @@ const teams = [
       CB: 30,
       S: 10
     },
+    abbreviation: "CLE",
     picks: [
       26
     ]
@@ -500,6 +523,7 @@ const teams = [
       CB: 50,
       S: 10
     },
+    abbreviation: "CIN",
     picks: [
       5
     ]
@@ -521,6 +545,7 @@ const teams = [
       CB: 50,
       S: 30
     },
+    abbreviation: "NE",
     picks: [
       15
     ]
@@ -542,6 +567,7 @@ const teams = [
       CB: 60,
       S: 30
     },
+    abbreviation: "NYJ",
     picks: [
       2,
       23
@@ -564,6 +590,7 @@ const teams = [
       CB: 60,
       S: 20
     },
+    abbreviation: "BUF",
     picks: [
       30
     ]
@@ -585,6 +612,7 @@ const teams = [
       CB: 20,
       S: 50
     },
+    abbreviation: "MIA",
     picks: [
       6,
       18
@@ -607,6 +635,7 @@ const teams = [
       CB: 50,
       S: 50
     },
+    abbreviation: "IND",
     picks: [
       21
     ]
@@ -628,6 +657,7 @@ const teams = [
       CB: 70,
       S: 70
     },
+    abbreviation: "HOU",
     picks: [
 
     ]
@@ -649,6 +679,7 @@ const teams = [
       CB: 30,
       S: 50
     },
+    abbreviation: "JAX",
     picks: [
       1,
       25
@@ -671,6 +702,7 @@ const teams = [
       CB: 20,
       S: 30
     },
+    abbreviation: "TEN",
     picks: [
       22
     ]
