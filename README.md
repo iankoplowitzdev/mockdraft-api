@@ -11,6 +11,7 @@
 - [Description](#description)
 - [Geek Speak](#geek-speak)
 - [Development](#development)
+- [Notable Files](#notable-files)
 
 ## Description
 
@@ -29,3 +30,9 @@ To develop the project, simply run the following command from the root directory
 ```bash
 docker-compose up
 ```
+
+## Notable Files
+
+| File | Description |
+|-|-|
+| [`scripts/data_retrieval/pullPff.js`](scripts/data_retrieval/pullPff.js) | `JavaScript` script that pulls the publicly available player data from the Pro Football Focus API. This was used to populate my database with its data. |
