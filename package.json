@@ -5,9 +5,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start-from-scratch": "./scripts/migrate/utils/DBFromScratch.js"
+    "start-from-scratch": "./scripts/migrate/utils/DBFromScratch.js",
+    "pull-pff": "./scripts/data_retrieval/populatePlayers.sh"
   },
   "dependencies": {
+    "axios": "0.21.1",
     "cors": "2.8.5",
     "dotenv": "8.2.0",
     "express": "4.17.1",

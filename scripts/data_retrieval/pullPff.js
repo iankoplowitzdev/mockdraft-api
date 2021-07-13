@@ -1,3 +1,10 @@
+#!/usr/bin/node
+
+/**
+ * This file will fetch the publicly available player data from
+ * the Pro Football Focus API, and log the resulting array as output.
+ */
+
 const axios = require('axios');
 
 async function main() {
@@ -17,7 +24,8 @@ main()
         lastName: lastName,
         program: player.college,
         position: player.position,
-        rank: player.pff_rank
+        rank: player.pff_rank,
+        score: 0
       }
       finalList.push(obj);
     }
