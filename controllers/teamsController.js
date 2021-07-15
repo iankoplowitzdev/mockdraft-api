@@ -1,7 +1,10 @@
 const teamsService = require('../services/teams');
 
+const controllerName = "TeamsController ::";
+
 const methods = {
   getTeams: async(req, res, next) => {
+    console.log(`${controllerName} getTeams()`);
     try{
         const teams = await teamsService.getTeams();
         res.setHeader('Content-Type', 'application/json');
