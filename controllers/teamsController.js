@@ -12,7 +12,7 @@ const methods = {
     }
     catch(e){
         console.error(e.message);
-        res.sendStatus(500) && next(error);
+        res.sendStatus(500) && next(e);
     }
   },
 }
