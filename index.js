@@ -23,7 +23,10 @@ app.use('/api', routes);
 
 
 // Connect to Mongo database
-mongoose.connect(dbPath, {useNewUrlParser: true});
+mongoose.connect(dbPath, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 const connection = mongoose.connection;
 connection.on('error', console.error.bind(console, 'Error establishing connection to Mongo database!'));
 connection.once("open", function() {
