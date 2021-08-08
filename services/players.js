@@ -3,7 +3,7 @@ const Player = require('../models/player');
 const selectionService = require('./selection');
 
 
-const teamsService = {
+const playersService = {
   getPlayers:  async () => {
     return Player.find();
   },
@@ -25,4 +25,4 @@ const teamsService = {
   }
 }
 
-module.exports = teamsService;
+module.exports = playersService;

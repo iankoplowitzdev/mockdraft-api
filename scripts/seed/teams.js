@@ -16,10 +16,7 @@ const teams = [
       CB: 80,
       S: 70
     },
-    abbreviation: "DAL",
-    picks: [
-      10
-    ]
+    abbreviation: "DAL"    
   },
   {
     city: 'Washington',
@@ -38,10 +35,7 @@ const teams = [
       CB: 70,
       S: 70
     },
-    abbreviation: "WAS",
-    picks: [
-      19
-    ]
+    abbreviation: "WAS"    
   },
   {
     city: 'Philadelphia',
@@ -60,10 +54,7 @@ const teams = [
       CB: 80,
       S: 60
     },
-    abbreviation: "PHI",
-    picks: [
-      12
-    ]
+    abbreviation: "PHI"    
   },
   {
     city: 'New York',
@@ -82,10 +73,7 @@ const teams = [
       CB: 80,
       S: 70
     },
-    abbreviation: "NYG",
-    picks: [
-      11
-    ]
+    abbreviation: "NYG"    
   },
   {
     city: 'New Orleans',
@@ -104,10 +92,7 @@ const teams = [
       CB: 50,
       S: 20
     },
-    abbreviation: "NO",
-    picks: [
-      28
-    ]
+    abbreviation: "NO"    
   },
   {
     city: 'Atlanta',
@@ -126,10 +111,7 @@ const teams = [
       CB: 60,
       S: 50
     },
-    abbreviation: "ATL",
-    picks: [
-      4
-    ]
+    abbreviation: "ATL"    
   },
   {
     city: 'Carolina',
@@ -148,10 +130,7 @@ const teams = [
       CB: 80,
       S: 60
     },
-    abbreviation: "CAR",
-    picks: [
-      8
-    ]
+    abbreviation: "CAR"    
   },
   {
     city: 'Tampa Bay',
@@ -170,10 +149,7 @@ const teams = [
       CB: 50,
       S: 30
     },
-    abbreviation: "TB",
-    picks: [
-      32
-    ]
+    abbreviation: "TB"    
   },
   {
     city: 'Green Bay',
@@ -192,10 +168,7 @@ const teams = [
       CB: 50,
       S: 40
     },
-    abbreviation: "GB",
-    picks: [
-      29
-    ]
+    abbreviation: "GB"    
   },
   {
     city: 'Detriot',
@@ -214,10 +187,7 @@ const teams = [
       CB: 40,
       S: 50
     },
-    abbreviation: "DET",
-    picks: [
-      7
-    ]
+    abbreviation: "DET"    
   },
   {
     city: 'Chicago',
@@ -236,10 +206,7 @@ const teams = [
       CB: 90,
       S: 30
     },
-    abbreviation: "CHI",
-    picks: [
-      20
-    ]
+    abbreviation: "CHI"    
   },
   {
     city: 'Minnesota',
@@ -258,10 +225,7 @@ const teams = [
       CB: 20,
       S: 30
     },
-    abbreviation: "MIN",
-    picks: [
-      14
-    ]
+    abbreviation: "MIN"    
   },
   {
     city: 'Seattle',
@@ -280,10 +244,7 @@ const teams = [
       CB: 60,
       S: 20
     },
-    abbreviation: "SEA",
-    picks: [
-
-    ]
+    abbreviation: "SEA"    
   },
   {
     city: 'San Francisco',
@@ -302,10 +263,7 @@ const teams = [
       CB: 70,
       S: 60
     },
-    abbreviation: "SF",
-    picks: [
-      3
-    ]
+    abbreviation: "SF"    
   },
   {
     city: 'Arizona',
@@ -324,10 +282,7 @@ const teams = [
       CB: 60,
       S: 40
     },
-    abbreviation: "ARZ",
-    picks: [
-      16
-    ]
+    abbreviation: "ARZ"    
   },
   {
     city: 'Los Angeles',
@@ -346,10 +301,7 @@ const teams = [
       CB: 20,
       S: 50
     },
-    abbreviation: "LAR",
-    picks: [
-
-    ]
+    abbreviation: "LAR"    
   },
   {
     city: 'Kansas City',
@@ -368,10 +320,7 @@ const teams = [
       CB: 50,
       S: 20
     },
-    abbreviation: "KC",
-    picks: [
-
-    ]
+    abbreviation: "KC"    
   },
   {
     city: 'Denver',
@@ -390,10 +339,7 @@ const teams = [
       CB: 50,
       S: 50
     },
-    abbreviation: "DEN",
-    picks: [
-      9
-    ]
+    abbreviation: "DEN"    
   },
   {
     city: 'Las Vegas',
@@ -412,10 +358,7 @@ const teams = [
       CB: 80,
       S: 20
     },
-    abbreviation: "LV",
-    picks: [
-      17
-    ]
+    abbreviation: "LV"    
   },
   {
     city: 'Los Angeles',
@@ -434,10 +377,7 @@ const teams = [
       CB: 80,
       S: 40
     },
-    abbreviation: "LAC",
-    picks: [
-      13
-    ]
+    abbreviation: "LAC"    
   },
   {
     city: 'Baltimore',
@@ -456,11 +396,7 @@ const teams = [
       CB: 30,
       S: 30
     },
-    abbreviation: "BAL",
-    picks: [
-      27,
-      31
-    ]
+    abbreviation: "BAL"
   },
   {
     city: 'Pittsburgh',
@@ -479,10 +415,7 @@ const teams = [
       CB: 40,
       S: 10
     },
-    abbreviation: "PIT",
-    picks: [
-      24
-    ]
+    abbreviation: "PIT"    
   },
   {
     city: 'Cleveland',
@@ -501,10 +434,7 @@ const teams = [
       CB: 30,
       S: 10
     },
-    abbreviation: "CLE",
-    picks: [
-      26
-    ]
+    abbreviation: "CLE"    
   },
   {
     city: 'Cincinnati',
@@ -523,10 +453,7 @@ const teams = [
       CB: 50,
       S: 10
     },
-    abbreviation: "CIN",
-    picks: [
-      5
-    ]
+    abbreviation: "CIN"    
   },
   {
     city: 'New England',
@@ -545,10 +472,7 @@ const teams = [
       CB: 50,
       S: 30
     },
-    abbreviation: "NE",
-    picks: [
-      15
-    ]
+    abbreviation: "NE"    
   },
   {
     city: 'New York',
@@ -567,11 +491,7 @@ const teams = [
       CB: 60,
       S: 30
     },
-    abbreviation: "NYJ",
-    picks: [
-      2,
-      23
-    ]
+    abbreviation: "NYJ"    
   },
   {
     city: 'Buffalo',
@@ -590,10 +510,7 @@ const teams = [
       CB: 60,
       S: 20
     },
-    abbreviation: "BUF",
-    picks: [
-      30
-    ]
+    abbreviation: "BUF"    
   },
   {
     city: 'Miami',
@@ -612,11 +529,7 @@ const teams = [
       CB: 20,
       S: 50
     },
-    abbreviation: "MIA",
-    picks: [
-      6,
-      18
-    ]
+    abbreviation: "MIA"    
   },
   {
     city: 'Indianapolis',
@@ -635,10 +548,7 @@ const teams = [
       CB: 50,
       S: 50
     },
-    abbreviation: "IND",
-    picks: [
-      21
-    ]
+    abbreviation: "IND"    
   },
   {
     city: 'Houston',
@@ -657,10 +567,7 @@ const teams = [
       CB: 70,
       S: 70
     },
-    abbreviation: "HOU",
-    picks: [
-
-    ]
+    abbreviation: "HOU"    
   },
   {
     city: 'Jacksonville',
@@ -679,11 +586,7 @@ const teams = [
       CB: 30,
       S: 50
     },
-    abbreviation: "JAX",
-    picks: [
-      1,
-      25
-    ]
+    abbreviation: "JAX"    
   },
   {
     city: 'Tennessee',
@@ -702,10 +605,7 @@ const teams = [
       CB: 20,
       S: 30
     },
-    abbreviation: "TEN",
-    picks: [
-      22
-    ]
+    abbreviation: "TEN"    
   }
 ]
 

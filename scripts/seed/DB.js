@@ -14,11 +14,16 @@ const players = require('./players');
 const Position = require('../../models/position');
 const positions = require('./positions');
 
+const DraftOrder = require('../../models/draftOrder');
+const draftOrder = require('./draftOrder');
+
+const teamsService = require('../../services/teams');
+
 
 module.exports = class DB{
     constructor(config){
         if(!config){
-            throw new Error("DB requires config to be intantiated.");
+            throw new Error("DB requires config to be instantiated.");
         }
 
         this.config = config;
@@ -72,6 +77,21 @@ module.exports = class DB{
         for (let i = 0; i < positions.length; i++) {
             const position = new Position(positions[i]);
             await position.save();
+        }
+
+        // create draft order collection
+        this.db.dropCollection('draftOrder');
+        for (let i = 0; i < draftOrder.length; i++) {
+            const currentYear = draftOrder[i];
+            for (let roundNum = 1; roundNum <= 7; roundNum++) {
+                const currentRound = currentYear[`r${roundNum}`];
+                for (let i = 0; i < currentRound.length; i++) {
+                    const teamName = currentRound[i];
+                    currentRound[i] = await teamsService.convertTeamNameToId(teamName);
+                }
+            }
+            const draftOrderYear = new DraftOrder(currentYear);
+            await draftOrderYear.save();
         }
     }
 
