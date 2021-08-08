@@ -15,7 +15,7 @@ const positions = [
   {
     title: 'Running Back',
     title2: 'Half Back',
-    abbreviation: 'RB',
+    abbreviation: 'HB',
     pickAdjustment: [
       70,
       70,
