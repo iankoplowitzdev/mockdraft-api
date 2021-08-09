@@ -17,6 +17,9 @@ const positions = require('./positions');
 const DraftOrder = require('../../models/draftOrder');
 const draftOrder = require('./draftOrder');
 
+const TradeChart = require('../../models/tradeChart');
+const tradeChart = require('./tradeChart');
+
 const teamsService = require('../../services/teams');
 
 
@@ -93,6 +96,15 @@ module.exports = class DB{
             const draftOrderYear = new DraftOrder(currentYear);
             await draftOrderYear.save();
         }
+
+        // create trade chart collection
+        this.db.dropCollection('tradeChart');
+        const chart = new TradeChart({
+            year: tradeChart.year,
+            chart: tradeChart.chart
+        });
+        await chart.save();
+        
     }
 
     async disconnect() {

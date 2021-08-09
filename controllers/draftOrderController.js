@@ -16,7 +16,7 @@ const methods = {
     }
   },
   getCurrentSeasonDraftOrder: async(req, res, next) => {
-    console.log(`${controllerName} getDraftOrder()`);
+    console.log(`${controllerName} getCurrentSeasonDraftOrder()`);
     try{
         const draftOrder = await draftOrderService.getCurrentYear();
         res.setHeader('Content-Type', 'application/json');
