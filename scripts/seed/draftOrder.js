@@ -1,6 +1,6 @@
 const draftOrder = [
   {
-    year: 2020,
+    year: 2021,
     r1: [
       "Jaguars",
       "Jets",
