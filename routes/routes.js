@@ -12,6 +12,8 @@ router.get('/players', playersController.getPlayers);
 router.get('/selection/:team/:pick', playersController.getSelection);
 router.get('/positions', positionsController.getPositions);
 router.get('/draft-order', draftOrderController.getDraftOrder);
+router.get('/draft-order/current', draftOrderController.getCurrentSeasonDraftOrder);
+
 
 
 
