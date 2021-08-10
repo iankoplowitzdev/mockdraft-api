@@ -17,6 +17,7 @@ async function createAndPopulateDB (config, seedDb){
     console.log("Getting database...");
 
     const DB = seedDBInst.getDb();
+    seedDBInst.disconnect();
 }
 
 async function main(config, seedDb){
