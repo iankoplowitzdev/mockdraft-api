@@ -23,7 +23,7 @@ const mockDraft = {
     
     for (let roundNum = 1; roundNum <= 7; roundNum++) {
       completeDraftOrder.push(...currentYearDraftOrder[`r${roundNum}`].map((team, index) => ({
-        ...team,
+        team: team,
         tradeChartValue: currentYearTradeChart[pickCounter++],
         round: roundNum,
         selection: index + 1
